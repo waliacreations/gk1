@@ -1,0 +1,27 @@
+<!DOCTYPE HTML>
+<html>
+  <head>
+    <meta property="og:title" content="List of Articles"/>
+      <meta property="og:type" content="website"/>
+      #<meta property="og:image" content="http://walia-contacts.heroku.com/images/heroku_logo.png"/>
+      <meta property="og:url" content="http://walia-contacts.heroku.com/"/>
+      <meta property="og:site_name" content="Heroku:Interesting Articles"/>
+      <meta property="fb:admins" content="643897273"/>
+
+    <title>Walia-Contacts</title>
+    <style>
+      body { font-family: Arial; font-size: 20px ;}
+      a { text-decoration: none; color: #333; }
+      .logout a { color: #2554C7; font-size: 15px; }
+      .article { font-size: 1.2em; }
+      .like_site { font-size: 0.8em }
+    </style>
+  </head>
+  <body>
+    <%= yield %>
+<iframe src="http://www.facebook.com/plugins/like.php?href=YOUR_URL"
+        scrolling="no" frameborder="0"
+        style="border:none; width:450px; height:80px"></iframe>
+
+  </body>
+</html>
